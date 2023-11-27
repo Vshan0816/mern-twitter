@@ -41,7 +41,7 @@ mongoose
   // console into `dbLogger` and `serverLogger` above.
   .catch(err => serverLogger(err));
 
-server.listen(port);
+
 server.on('error', onError);
 server.on('listening', onListening);
 
